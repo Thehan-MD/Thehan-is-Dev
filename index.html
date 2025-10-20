@@ -1542,7 +1542,7 @@ Developed by Thehan Vindula
     <h2 class="section-title scroll-reveal">About Me</h2>
     <div class="about-content scroll-reveal">
         <div class="profile-card">
-            <img src="images/dhp.jpg" alt="Thehan Vindula" class="about-image">
+            <img src="images/dhp.jpg" alt="Thehan Vindula" class="about-image"
         </div>
         <p>
             I’m Thehan Vindula Thennakoon, a 16-year-old student from Badulla Uva College. I’m passionate about technology, creativity, and design. As a student, programmer, and graphic designer, I enjoy exploring the digital world through coding and creating eye-catching visuals. My curiosity drives me to learn new programming languages, build unique projects, and sharpen my design skills every day. I believe innovation starts with imagination, and I’m determined to turn my ideas into impactful digital creations. My ultimate goal is to become a Software Engineer, contributing to the world through technology that makes life smarter and more connected.
@@ -1562,8 +1562,9 @@ Developed by Thehan Vindula
        
 <head>
   <!-- Add this inside <head> -->
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 
 <!-- Contact Section -->
 <section class="section" id="contact">
@@ -1589,12 +1590,13 @@ Developed by Thehan Vindula
 </section>
 
 <style>
-.contact-item span {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: #00ffff;
+  
+  .zen-dots-regular {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }
 </style>    
         <!-- Footer -->
